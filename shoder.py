@@ -17,7 +17,7 @@ print('''
 
 ''')
 
-api = shodan.Shodan('Y9jBAGp7Nb3LsAWIUujr1XFi3N8bKjNV')
+api = shodan.Shodan('')
 ip = str(input("Enter IP: \n\r"))
 
 # Lookup an IP
